@@ -1,4 +1,4 @@
-input:("*J";" ")0:`AOC02.txt
+input:("*J";" ")0:`02.txt
 
 // Part 1
 g:{sum prd@[x;0;:;y]}[input;];

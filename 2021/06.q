@@ -1,4 +1,4 @@
-input:value first read0`:AOC06.txt
+input:value first read0`:06.txt
 
 // Part 1
 count 80{@[x-1;where i;:;6],sum[i:0=x]#8}/input

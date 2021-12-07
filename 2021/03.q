@@ -1,4 +1,4 @@
-input:"B"$/:/:read0`:AOC03.txt
+input:"B"$/:/:read0`:03.txt
 
 // Part 1
 prd 2 sv/:(not\)500<sum input

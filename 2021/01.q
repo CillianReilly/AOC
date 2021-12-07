@@ -1,4 +1,4 @@
-input:"J"$read0`:AOC01.txt
+input:"J"$read0`:01.txt
 
 // Part 1
 -1+/(>':)input
