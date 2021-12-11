@@ -7,3 +7,6 @@ sum(")]}>"!3 57 1197 25137)c:first each inter\:[;key d]p:{{x where not any 1 nex
 
 // Part 2
 floor med{{y+5*x}/[0,1+key[d]?reverse d?x]}each p where null c
+
+// 5 sv inspired by pierre kovalevs solution
+//floor med{5 sv 1+key[d]?reverse d?x}each p where null c
