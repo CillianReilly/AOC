@@ -16,3 +16,8 @@ s:"J"$first@'(" "vs/:i)
 d:exec sum s by p from ungroup ([]p;s)
 sum d where d<=100000
 min d where d>=d[`:]-40000000
+
+// nick psaris
+t:([]p:(,\')(){$["cd"~y 1;$[".."~y 2;-1_x;x,`$y 2];x]}\x;s:"J"$(x:" "vs/:read0`p7)[;0])
+sum (1+s bin 100000)#s:asc value exec sum s by p from ungroup t
+s s binr last[s]-40000000
