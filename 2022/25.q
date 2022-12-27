@@ -1,6 +1,5 @@
-decimalise:{sum(7h$5 xexp reverse til count x)*(-2+"=-"?x)^"J"$/:x}
-snafuise:{o:(.Q.n neg t)^" -="t:7h$reverse %[;-1_s]1_deltas{x+(y%5)*0 -1 -2 2 1@7h$(x mod y)%(y%5)}\[x;s:((5*x)>)(5*)\1];$["0"~first o;1_o;o]}
-
+decimalise:5 sv'-2+"=-012"?
+snafuise:{"=-012"2+{sum(next;x-5*)@\:x in 4 3}/[0,5 vs x]}
 snafuise sum decimalise each read0`25.txt
 
 // rory kemp
