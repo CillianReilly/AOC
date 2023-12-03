@@ -1,4 +1,3 @@
-// first version
 // part 1
 sum value each(first;last)@\:/:inter\:[;.Q.n]read0`01.txt
 
