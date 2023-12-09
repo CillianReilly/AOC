@@ -22,3 +22,6 @@ txt:{flip(last;first)@\:/:reverse(not all 0=)(1_deltas@)\value x}each read0`9.tx
 
 // parts 1 and 2
 sum(sum;{y-x}/)@'/:txt
+
+
+k)+/{(+/;{y-x}/)@'+(*|:;*:)@\:/:|(~&/0=)(1_-':)\.:x}'0:`9.txt
