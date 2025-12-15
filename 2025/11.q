@@ -7,7 +7,6 @@ exec first c from fp1 enlist`node`c!`you,1
 
 // part 2
 fp2:{
-  n:x exec node from y;
   y:ungroup update x node from y;
   y:update fft+c*`fft=node,dac+c*`dac=node from y;
   y:update both:?[node in`fft`dac;fft&dac;both]from y;
